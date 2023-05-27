@@ -1,0 +1,20 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["Dictionary-min/Dictionary-min.csproj", "Dictionary-min/"]
+RUN dotnet restore "Dictionary-min/Dictionary-min.csproj"
+COPY . .
+WORKDIR "/src/Dictionary-min"
+RUN dotnet build "Dictionary-min.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Dictionary-min.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Dictionary-min.dll"]
