@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["Dictionary-min/Dictionary-min.csproj", "Dictionary-min/"]
-RUN dotnet restore "Dictionary-min/Dictionary-min.csproj"
+COPY ["Dictionary-min.csproj", "./"]
+RUN dotnet restore "Dictionary-min.csproj"
 COPY . .
-WORKDIR "/src/Dictionary-min"
+WORKDIR "/src/"
 RUN dotnet build "Dictionary-min.csproj" -c Release -o /app/build
 
 FROM build AS publish

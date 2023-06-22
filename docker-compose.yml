@@ -1,0 +1,12 @@
+version : ’3’
+services :
+  redis :
+    image : redis:latest
+    ports :
+      - "6379:6379"
+  dictionary-api :
+    image : 62136/dictionary-min:latest
+    environment :
+      ConnectionStrings__RedisConnection : "redis:6379"
+    ports :
+      - "8080:80"

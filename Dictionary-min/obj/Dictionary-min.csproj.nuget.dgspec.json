@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\Dictionary-min.csproj": {}
+    "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\Dictionary-min.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\Dictionary-min.csproj": {
+    "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\Dictionary-min.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\Dictionary-min.csproj",
+        "projectUniqueName": "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\Dictionary-min.csproj",
         "projectName": "Dictionary-min",
-        "projectPath": "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\Dictionary-min.csproj",
+        "projectPath": "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\Dictionary-min.csproj",
         "packagesPath": "C:\\Users\\oneov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\obj\\",
+        "outputPath": "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oneov\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,6 +20,7 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\oneov\\.dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

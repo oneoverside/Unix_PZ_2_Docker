@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jL9Ty3jfZIjk8Ksd7iaHmPppCRud6naeNj2FZ7Hp1/RnCeKArbHj/kBf3R99PVOO57lsoYRZxPZmuBUng78vCA==",
+  "dgSpecHash": "C54C5Shk7YSbBNCs6kQ42M83jsANpANwfFNBdhW6zYK3KSVsEBrKrFUyjBACQ+SG57oifa2f2hgqik2X4bKY6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oneov\\RiderProjects\\Dictionary-min\\Dictionary-min\\Dictionary-min.csproj",
+  "projectFilePath": "C:\\Users\\oneov\\RiderProjects\\Unix_PZ_2_Docker\\Dictionary-min\\Dictionary-min.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\oneov\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
